@@ -1,0 +1,64 @@
+body {
+  background-image: url("/Users/miko/Desktop/mikojenn.github.io/batch6_activities/Tributepage/image/pexels-photo-462030.jpeg");
+  background-repeat: round;
+  font-family: "Comfortaa", cursive;
+  outline: 50 50 50 50;
+  color: white;
+}
+#headername {
+  color: rgb(128, 0, 128);
+}
+#headerpic {
+  text-align: center;
+}
+#mv1 {
+  font-family: "Satisfy", cursive;
+  color: white;
+}
+#iconpic1 {
+  border-radius: 50%;
+}
+#icon1 {
+  color: rgba(255, 255, 255, 0);
+}
+#iconpic2 {
+  border-radius: 50%;
+}
+#iconpic3 {
+  border-radius: 50%;
+}
+ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.top-container {
+  background-color: #f1f1f1c2;
+  padding: 10px;
+  text-align: center;
+  font-family: "Satisfy", cursive;
+}
+
+.header {
+  padding: 10px 16px;
+  background: rgba(128, 0, 128, 0.568);
+  color: #f1f1f1;
+  font-family: "Satisfy", cursive;
+  text-align: center;
+}
+
+.content {
+  padding: 16px;
+  margin: auto;
+  padding: 100px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 102px;
+}
