@@ -1,0 +1,195 @@
+body {
+  background-image: url("images/v.jpeg");
+  background-repeat: round;
+  font-family: "Comfortaa", cursive;
+  outline: 50 50 50 50;
+  color: white;
+}
+
+/*-------NAV-------*/
+#headername {
+  color: rgb(128, 0, 128);
+}
+#subheader {
+  font-family: "Comfortaa", cursive;
+  color: rgba(255, 255, 255, 0.795);
+}
+#headerpic {
+  text-align: center;
+}
+#mv1 {
+  font-family: "Satisfy", cursive;
+  color: white;
+}
+#iconpic1 {
+  border-radius: 50%;
+}
+#icon1 {
+  color: rgba(255, 255, 255, 0);
+}
+#iconpic2 {
+  border-radius: 50%;
+}
+#iconpic3 {
+  border-radius: 50%;
+}
+ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.top-container {
+  background-color: #050000b7;
+  padding: 10px;
+  text-align: center;
+  font-family: "Satisfy", cursive;
+}
+
+.header {
+  padding: 10px 16px;
+  background: rgba(128, 0, 128, 0.568);
+  color: #f1f1f1;
+  font-family: "Satisfy", cursive;
+  text-align: center;
+}
+
+.content {
+  padding: 16px;
+  margin: auto;
+  padding: 100px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 102px;
+}
+
+/*-------END NAV-------*/
+
+/*--CLICKABLE TAB--*/
+
+.tablink {
+  background-color: rgba(14, 0, 0, 0.699);
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 25%;
+}
+
+.tablink:hover {
+  background-color: rgba(82, 6, 126, 0.541);
+}
+
+/* Style the tab content */
+.tabcontent {
+  color: white;
+  display: none;
+  padding: 50px;
+  text-align: center;
+}
+
+#EarlyLife {
+  background-color: rgba(128, 0, 128, 0.568);
+}
+#MusicalJourney {
+  background-color: rgba(1, 15, 1, 0.726);
+}
+#TheVoice {
+  background-color: rgba(136, 7, 125, 0.548);
+}
+#ThePassing {
+  background-color: rgba(3, 25, 85, 0.603);
+}
+/*--NAV--*/
+
+/*TIMELINE*/
+.timeline ul li {
+  list-style-type: none;
+  position: relative;
+  width: 6px;
+  margin: 0 auto;
+  padding-top: 50px;
+  background: #fff;
+}
+
+.timeline ul li::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: inherit;
+}
+
+/*SECOND SECTION*/
+
+.timeline ul li div {
+  position: relative;
+  bottom: 0;
+  width: 400px;
+  padding: 15px;
+  background: #23024db7;
+}
+
+.timeline ul li div::before {
+  content: "";
+  position: absolute;
+  bottom: 7px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+}
+
+/*THIRD SECTION*/
+
+.timeline ul li:nth-child(odd) div {
+  left: 45px;
+}
+
+.timeline ul li:nth-child(odd) div::before {
+  left: -15px;
+  border-width: 8px 16px 8px 0;
+  border-color: transparent #9d5bf4a8 transparent transparent;
+}
+
+/*FOURTH SECTION*/
+.timeline ul li:nth-child(even) div {
+  left: -439px;
+}
+
+.timeline ul li:nth-child(even) div::before {
+  right: -15px;
+  border-width: 8px 0 8px 16px;
+  border-color: transparent transparent transparent #9d5bf4a8;
+}
+
+/* -----CONTRIBUTION------ */
+
+#name {
+  background-color: rgba(128, 0, 128, 0.568);
+  color: white;
+}
+#email {
+  background-color: rgba(128, 0, 128, 0.568);
+  color: white;
+}
+#commentbox {
+  background-color: rgba(128, 0, 128, 0.568);
+  color: white;
+}
+#contri {
+  background-color: rgba(128, 0, 128, 0.568);
+  color: white;
+}
