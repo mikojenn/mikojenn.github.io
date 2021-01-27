@@ -1,0 +1,95 @@
+body {
+    height: 100%;
+    background-image: url(/Users/miko/Desktop/LOCAL/FORM/pexels-aleksandar-pasaric-325185.jpg);
+    position: relative;
+    margin-top: relative;
+    margin-left: 0px;
+    margin-right: 0px;
+    background-attachment: fixed;
+    background-position: center;
+    background-size:cover; letter-spacing: normal;
+    font-family: 'Yusei Magic', sans-serif;
+}
+header{
+    padding-top: 5px;
+    text-align:center;
+    color: rgba(2, 6, 58, 0.603);
+    line-height: 1.8rem;
+    font-family:
+}
+h1{
+    margin-top: 50px;
+    margin-bottom: 0px;
+    font-weight: 500;
+}
+#description{
+    margin-top: 30px;
+    margin-bottom: 0px;
+    font-weight: 100;
+}
+fieldset{
+    font-size: 1rem;
+    padding:10px;
+    margin: auto;
+    width:35%;
+    background-color: rgba(6, 34, 112, 0.76);
+    color: rgba(255, 255, 255, 0.788);
+}
+
+#textareacom{
+    background-color: rgba(255, 255, 255, 0.753);
+}
+input:focus{
+    background-color: rgba(35, 4, 44, 0.671);
+}
+select:focus{
+    background-color: rgba(35, 4, 44, 0.671);
+}
+textarea:focus{
+    background-color: rgba(35, 4, 44, 0.671);
+}
+div{
+    margin-bottom: 0.5rem;
+}
+.inputplace{
+    width: 80%;
+    display: block;  
+}
+#comments{
+    width: 500px;
+    height: 200px;
+}
+@media only screen and (max-width: 600px) {
+    .inputfields{
+        width: 100%;
+    }
+    #comments{
+        width: 250px;
+        height: 150px;
+    }
+}
+.submit{
+    display: flex;
+    justify-content: center;
+}
+footer{margin-bottom: 0px;}
+#submitbutton {
+  background-color: #030118af;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: hand;
+  width: 100%;
+  opacity: 0.9;
+  font-family: 'Yusei Magic', sans-serif;
+}
+#submitbutton:hover {
+  opacity: 1;
+}
+a {
+  color: dodgerblue;
+}
+.signin {
+  background-color: #f1f1f1;
+  text-align: center;

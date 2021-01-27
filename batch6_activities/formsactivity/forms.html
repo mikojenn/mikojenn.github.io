@@ -1,0 +1,145 @@
+<html>
+<head>
+    <!--USER STORY 1-->
+    <title id="title">Avion School Survey <Form></Form>
+    </title>
+    <!--USER STORY 2-->
+    <header>
+        <h1 id="description"> Avion School Survey Form</h1>
+        <h2>Become a Software Engineer!</h2>
+        <h3 id="description"> Thank you for taking time to help us improve our platform</h3>
+    </header>
+    <!---STYLESHEET-->
+    <link rel="stylesheet" href="formsstylesheet.css" />
+    <!---FONT-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap" rel="stylesheet">
+</head>
+<body>
+    <fieldset>
+        <form action="formactivity.html" id="survey-form"></form>
+    <!----------------------------------------------->
+        <!--USER STORY 4-->
+        <div id="name">
+            <label for='name'>Name:</label>
+            <br>
+            <input class="inputplace" type="text" name="name" size="15" placeholder="Enter Name" required>
+            </label>
+        </div>
+    <!----------------------------------------------->
+        <!--USER STORY 5 & 6-->
+        <div id="email">
+            <label for='email'>Email:</label>
+            <br>
+            <input class="inputplace" type="email" email="email" size="15" placeholder="Enter Email" required>
+            </label>
+        </div>
+        <div id="age">
+            <label for='age'>Age:</label>
+            <br>
+            <input class="inputplace" type="age" email="age" size="15" placeholder="Age">
+            </label>
+        </div>
+    <!----------------------------------------------->
+        <!--USER STORY 7 ,8 & 9-->
+        <div id="number">
+            <label for='number'>Contact No.:</label>
+            <br>
+            <input class="inputplace" type="tel" placeholder="Enter contact number " size="15">
+            </label>
+        </div>
+        <br>
+    <!----------------------------------------------->
+        <!--USER STORY 12 DROPDOWN-->
+
+        <div id="dropdown">
+            <p>Please select your coding language</p>
+            <select name="languages" id="">
+
+                <br>
+                <option value=""></option>
+                <br>
+                <option value="HTML">HTML</option>
+                <br>
+                <option value="Javascript">Javascript</option>
+                <br>
+                <option value="Phython">Phython</option>
+                <br>
+                <option value="Ruby on Rails">Ruby on Rails</option>
+                <br>
+                <option value="C Language">C Language</option>
+                <br>
+                <option value="C ++">C ++</option>
+                <br>
+                <option value="C #">C #</option>
+                <br>
+                <option value="Objective-C">Objective-C</option>
+                <br>
+                <option value="PHP">PHP</option>
+                <br>
+                <option value="SQL">SQL</option>
+                <br>
+                <option value="Swift">Swift</option>
+            </select>
+        </div>
+    <!----------------------------------------------->
+        <!--USER STORY 13 RADIO BUTTONS-->
+        <div id="radiobuttons">
+            <p>Would you recommend Avion School to a friend?</p>
+            <input type="radio" name="coding" id="" value="Yes"> Yes
+            <br>
+            <input type="radio" name="coding" id="" value="No"> No
+            <br>
+            <input type="radio" name="coding" id="" value="Maybe"> Maybe
+            <br>
+        </div>
+    <!----------------------------------------------->
+        <!--USER STORY 14 CHECKBOXES-->
+        <div id="Checkboxes">
+            <p>What would you like to see improved?
+            </p>
+            <input type="checkbox" name="" id="" value="Front-end Projects">
+            Front-end Projects
+            <br>
+            <input type="checkbox" name="" id="" value="Back-end Projects"> Back-end Projects
+            <br>
+            <input type="checkbox" name="" id="" value="Data Visualization">
+            Data Visualization
+            <br>
+            <input type="checkbox" name="" id="" value="Open Source Community">
+            Open Source Community
+            <br>
+            <input type="checkbox" name="" id="" value="Gitter Help Rooms">
+            Gitter Help Rooms
+            <br>
+            <input type="checkbox" name="" id="" value="Videos">
+            Videos
+            <br>
+            <input type="checkbox" name="" id="" value="City Meetups">
+            City Meetups
+            <br>
+            <input type="checkbox" name="" id="" value="Wiki">
+            Wiki
+            <br>
+            <input type="checkbox" name="" id="" value="Forum">
+            Forum
+            <br>
+            <input type="checkbox" name="" id="" value="Additional Courses">
+            Additional Courses
+            <br>
+        </div>
+    <!----------------------------------------------->
+        <!--USER STORY 15,16 & 17 -->
+        <div>
+            <p>If you have Comments or Suggestions, let us know!</p>
+            <textarea name="" id="textareacom" cols="60" rows='10'></textarea>
+            <br>
+            <input type="submit" value="Let's Do This!" id="submitbutton">
+        </div>
+        </form>
+    </fieldset>
+    <!----------------------------------------------->
+    <!--FOOTER-->
+    <footer></footer>
+</body>
+</html>
