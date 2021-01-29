@@ -1,0 +1,19 @@
+.square {
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+  display: inline-block;
+}
+
+.purple {
+  background-color: purple;
+  width: 100px;
+  height: 100px;
+  border: 1px solid rgba(216, 178, 11, 0.904);
+  display: inline-block;
+}
+
+#board {
+  width: 100px;
+  text-align: center;
+}

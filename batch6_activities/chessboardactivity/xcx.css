@@ -1,0 +1,72 @@
+body {
+  background: url(./purplebg.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin-top: 20px;
+}
+
+/*-----------Title-----------------*/
+
+.m1 {
+  display: block;
+  font-size: 3em;
+  color: rgba(104, 8, 214, 0.3)
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  font-family: "Sacramento", cursive;
+  text-align: center;
+}
+
+.m1:hover {
+  color: rgba(9, 31, 228, 0.76);
+  background-blend-mode: overlay;
+  cursor: pointer;
+}
+
+/*----------------------------*/
+
+.board {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.purple {
+  width: 5vw;
+  height: 5vw;
+  background-position: center;
+  background-size: cover;
+  background: url(./mp.jpg);
+  text-align: center;
+  font-size: 4vw;
+  border: rgba(241, 190, 22, 0.904) 1px solid;
+}
+
+.purple:hover {
+  background-color: rgba(9, 221, 228, 0.76);
+  background-blend-mode: overlay;
+  cursor: pointer;
+}
+
+.white:hover {
+  background-color: rgba(104, 8, 214, 0.3);
+  background-blend-mode: overlay;
+  cursor: hand;
+}
+
+.white {
+  width: 5vw;
+  height: 5vw;
+  background: url(./mw.jpg);
+  text-align: center;
+  font-size: 4vw;
+  border: rgba(9, 243, 212, 0.801) 1px solid;
+}
