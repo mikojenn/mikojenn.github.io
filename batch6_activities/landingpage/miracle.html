@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <title>Miracle Landing Page</title>
+        <link rel="stylesheet" href="miracle.css">
+</head>
+<body>
+    <header>
+        <a href="#"  class="logo"><img src="./images./miraclelogo.png"></a>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Team</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </header>
+    <section class="banner"></section>
+    <script type="text/javscript">
+        window.addEventListener("scroll", function(){
+            var header = document.querySelector("header");
+            header.classlist.toggle("sticky", window.scrollY > 0);
+        })
+    </script>
+</body>
+
+</html>
