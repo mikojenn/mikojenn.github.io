@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Miracle Landing Page</title>
+    <!-----------STYLESHEET---------->
+    <link rel="stylesheet" href="thankyou.css">
+    <!--------------FONT------------->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <br>
+    <p id="up"></p>
+    <!----------HEADER SECTION----------->
+    <header>
+        <a href="#" class="logo"><img src="images/44.jpeg"></a>
+        <ul>
+            <li><a href="miracle.html">Home</a></li>
+            <li><a href="#gotoabout">About</a></li>
+            <li class="active"><a href="product.html">Products</a></li>
+            <li><a href="#">Shop</a></li>
+            <li><a href="#gotoourteam">Team</a></li>
+            <li><a href="#contdp">Contact Us</a></li>
+        </ul>
+    </header>
+    <!--------VIDEO BACKGROUND----------->
+    <video playsinline autoplay muted loop poster="" class="bgvid">
+        <source src="images/vidbg.mp4" type="video/mp4">
+    </video>
+    <!------------FIRST SECTION CAROUSEL--------------->
+    <!-------------SECOND SECTION PRODUCTS---------------->
+    <div class="container">
+        <img src="images/thankyou.jpeg" width="600px" ></img>
+    </div>
+    <br>
+    <!-------------THIRD SECTION PRODUCTS---------------->
+    
+
+    <!-------------SCRIPT---------------->
+    <!---------CAROUSEL SCRIPT----------->
+    <script type="text/javscript">
+            var counter = 1;
+            setInterval(function(){
+                document.getElementById('radio' + counter).checked = true;
+                counter++;
+                if(counter > 6){
+                    counter = 1;
+                }
+            }, 5000);
+        </script>
+    <!----------BANNER SCRIPT------------>
+    <section class="banner"></section>
+    <script type="text/javscript">
+            window.addEventListener("scroll", function(){
+                var header = document.querySelector("header");
+                header.classlist.toggle("sticky", window.scrollY > 0);
+            })
+        </script>
+
+    <!------------------------------------>
+    <!----------VIDEO SCRIPT-------------->
+    <!------------------------------------->
+    <!------------ICON SCRIPT-------------->
+
+    <script src="miracle.js"></script>
+</body>
+
+</html>

@@ -3,26 +3,343 @@
 <head>
         <meta charset="UTF-8">
         <title>Miracle Landing Page</title>
+        <!-----------STYLESHEET---------->
         <link rel="stylesheet" href="miracle.css">
+        <!--------------FONT------------->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;600&display=swap" rel="stylesheet">
+        <!--------------SOCIAL MEDIA ICONS------------->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
+    <br>
+    <p id="up"></p>
+    <!----------HEADER SECTION----------->
     <header>
-        <a href="#"  class="logo"><img src="./images./miraclelogo.png"></a>
+        <a href="#" class="logo"><img src="images/44.jpeg"></a>
         <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Products</a></li>
-            <li><a href="#">Team</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="#up">Home</a></li>
+            <li><a href="#gotoabout">About</a></li>
+            <li class="active"><a href="product.html">Products</a></li>
+            <li><a href="#">Shop</a></li>
+            <li><a href="#gotoourteam">Team</a></li>
+            <li><a href="#contdp">Contact Us</a></li>
         </ul>
     </header>
+    <!--------VIDEO BACKGROUND----------->
+    <video playsinline autoplay muted loop poster="" class="bgvid">
+        <source src="images/vidbg.mp4" type="video/mp4">
+    </video>
+    <!------------FIRST SECTION CAROUSEL--------------->
+    <div class="slider">
+        <div class="slides">
+            <input type="radio" name="radio-btn" id="radio1">
+            <input type="radio" name="radio-btn" id="radio2">
+            <input type="radio" name="radio-btn" id="radio3">
+            <input type="radio" name="radio-btn" id="radio4">
+            <input type="radio" name="radio-btn" id="radio5">
+            <input type="radio" name="radio-btn" id="radio6">
+            <!--sliderimages-->
+            <div class="slide first">
+                <img src="images/si1.jpeg" alt="">
+            </div>
+            <div class="slide second">
+                <img src="images/si2.jpeg" alt="">
+            </div>
+            <div class="slide third">
+                <img src="images/si3.jpeg" alt="">
+            </div>
+            <div class="slide fourth">
+                <img src="images/si4.jpeg" alt="">
+            </div>
+            <div class="slide fifth">
+                <img src="images/si5.jpeg" alt="">
+            </div>
+            <div class="slide sixth">
+                <img src="images/si6.jpeg" alt="">
+            </div>
+            <!--automatic navigation-->
+            <div class="navigation-auto">
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+                <div class="auto-btn3"></div>
+                <div class="auto-btn4"></div>
+                <div class="auto-btn5"></div>
+                <div class="auto-btn6"></div>
+            </div>
+        </div>
+        <!--manual navigation-->
+        <div class="navigation-manual">
+            <label for="radio1" class="manual-btn"></label>
+            <label for="radio2" class="manual-btn"></label>
+            <label for="radio3" class="manual-btn"></label>
+            <label for="radio4" class="manual-btn"></label>
+            <label for="radio5" class="manual-btn"></label>
+            <label for="radio6" class="manual-btn"></label>
+        </div>
+    </div>  
+    <!-------------SECOND SECTION PRODUCTS---------------->
+    <div class="container">
+        <br>
+        <div class="products">
+            <img src="images/productslogo.jpeg" width="250px">
+        </div>
+        <div class="cards">
+            <ul>
+                <div class="box">
+                    <br>
+                    <div class="details"><a href="product.html" target="_blank"><img src="images/products/mplogo.jpeg" class="logo" width="150px" style="height: auto;"></a>
+                    </div>
+                    <p class="product-title"></p><img src="images/products/pthousehold.jpeg" class="title" width="270px" height="auto">
+                    <p class="regular"><a href="product.html"></p><img src="images/products/gwc.jpeg" class="model"></a>
+                </div>
+            </ul>
+            <ul>
+                <div class="box">
+                    <br>
+                    <div class="details"><a href="product.html"><img src="images/products/mplogo.jpeg" class="logo" width="150px" style="height: auto;"></a>
+                    </div>
+                    <p class="product-title"></p><img src="images/products/ptpro.jpeg" class="title" width="300px" height="auto">
+                    <p class="regular"></p><a href="product.html"><img src="images/products/prodsx.jpeg" class="model"></a>
+                    
+                </div>
+            </ul>
+            <ul>
+                <div class="box">
+                    <br>
+                    <div class="details"><a href="product.html"><img src="images/products/mplogo.jpeg" class="logo" width="150px" style="height: auto;"></a>
+                    </div>
+                    <p class="product-title"></p><img src="images/products/ptts.jpeg" class="title" width="230px" height="auto">
+                    <p class="regular"></p><a href="product.html"><img src="images/products/travelproducts.jpeg" class="model"></a>
+                </div>
+            </ul>
+        </div>
+    </div>
+    <br>
+    <br>
+        <!---------THIRD SECTION ABOUT OUR STORY------------>
+    <br id="gotoabout">
+    <div class="container2">
+        <div class="about">
+            <img src="images/ourstory.jpeg" width="250px"></p><a href="#"></a>
+        </div>
+        <br>
+        <br>
+        <div class="cards22">
+            <ul>
+                <div class="box2">
+                    <div class="humbleb"><a href=""><img class="humble" src="images/humbleb.jpeg" width="320px" ></a>
+                </div>
+            </ul>
+            <ul>
+                <div class="box3">
+                    <p>As a chemical engineer specializing in the research and development of cleaning products for a multi-national company,
+                    Miracle co-founder Alex found that the cleaning products in the markets were either too expensive or inconsistent in
+                    quality. So together with his wife Suzette, they started a company dedicated to bringing high quality yet affordable
+                    cleaning products to everyone.
+                    </p>
+                    <br>
+                    <p>
+                    Miracle’s start in 2005 was difficult to say the least. With the advent of new brands and massive advertising campaigns
+                    from large corporations, it was even more difficult to reach out to people.
+                    </p>
+                    <br>
+                    <p>
+                    But with hardwork and dedication, Miracle grew from husband & wife mixing chemicals in their backyard, ten gallons at a time to make
+                    dishwashing liquids, to a team of chemists, engineers and others working in a proper factory with the right equipment
+                    making different varieties of dishwashing liquids, detergents and other cleaning products.
+                    </p>
+                    <br>
+                    <p>Miracle’s team continues to reach even more people by doubling their efforts in
+                    bringing everyone higher quality cleaning products at the best possible prices.
+                    </p>
+                    <br>
+                    <div class ="gtku">
+                    <p><a href="">More About Our Journey</a></p>
+                    </div>
+                </div>
+            </ul>
+        </div>
+        <br>
+        <br>
+         <!---------FOURTH SECTION MEET OUR TEAM----------->
+         <br id="gotoourteam">
+    <div class="container3">
+        <div class="ourteam">
+            <img src="images/meetourteamlogo.jpeg" width="320px"></p><a href="#"></a>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div class="cards33">
+            <div class="boxot1">
+                <div>
+                    <iframe height="400" width="800"
+                    src="images/ourteam.mp4">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+        <!---------FIFTH SECTION SOCIAL RESPONSIBILITY----------->
+    <div class="container4">
+            <div class="gbtc">
+                <!--<img src="images/meetourteamlogo.jpeg" width="450px"></p><a href="#"></a> -->
+            </div>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <div class="cards44">
+                <div class="boxot2">
+                    <div>
+                        <iframe height="400" width="800" src="images/community.mp4">
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <h1> Now Available @ Daiso Philippines </h1>
+    <img src="images/daiso.jpeg">
+    <br>
+    <br>
+
+    <!---------------FOOTER----------------->
+    <footer>
+            <div class="footercontainer">
+                <div class="footerimage">
+                    <br>
+                </div>
+                <div class="cardsfooter">
+                    <ul>
+                        <div class="boxfooter">
+                            <form action="" method="">
+                                <h1>
+                                    Let's Be E-Penpals
+                                </h1>
+                                <br>
+                                <p>
+                                    Join thousands of happy customers creating a healthier home!
+                                </p>
+                                <br>
+                                <p> Hear first-hand about exclusive product launches,new formulation and more!
+                                </p>
+                                <br>
+                                <label for='name'>Name</label>
+                                <input type="text" name="name" id="name">
+                                <br>
+                                <br>
+                                <label for='email'>Email</label>
+                                <input type="email" value=email@email id="email">
+                                <br>
+                                <br>
+                                <p>We'd love to hear from you!</p>
+                                <br>
+                                <textarea name="" id="commentbox" cols="40" rows="10"></textarea>
+                                <br>
+                                <input type="button" onClick="foo()" value=" Submit ">
+                                <!--<input type="submit" onclick="clicked();" value="Submit" />-->
+                                <!-- <a href="submit.html">
+                                    <input type="submit" value=" Submit " id="contri"/>
+                                </a> -->
+                            </form>
+                        </div>
+                    </ul>
+                    <ul>
+                        <div class="boxfooter">
+                            <h1 id="contdp">Connect with Us!</h1>
+                            <br>
+                            <a href="#" class="fa fa-facebook"></a>
+                            <a href="#" class="fa fa-twitter"></a>
+                            <a href="#" class="fa fa-google"></a>
+                            <a href="#" class="fa fa-linkedin"></a>
+                            <a href="#" class="fa fa-youtube"></a>
+                            <a href="#" class="fa fa-instagram"></a>
+                        </div>
+                    </ul>
+                    <ul>
+                        <div class="boxfooter">
+                            <h1>Let's get in touch!</h1>
+                            <p>
+                            <br>
+                            Call us Mondays-Saturdays
+                            </p>
+                            <i class="fa fa-clock-o" style="font-size:46px"></i>
+                            <p>
+                            09:00 - 17:00 PHT
+                            </p>
+                            <i class="fa fa-mobile-phone" style="font-size:66px"></i>
+                            <p>+63 9175237048</p>
+                            <i class="fa fa-phone" style="font-size:66px"></i>
+                            <p>+08 827 75576</p>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+
+    </footer>
+    <!-------------SCRIPT---------------->
+    <!---------CAROUSEL SCRIPT----------->
+    <script type="text/javscript">
+            var counter = 1;
+            setInterval(function(){
+                document.getElementById('radio' + counter).checked = true;
+                counter++;
+                if(counter > 6){
+                    counter = 1;
+                }
+            }, 5000);
+        </script>
+    <!----------BANNER SCRIPT------------>
     <section class="banner"></section>
     <script type="text/javscript">
-        window.addEventListener("scroll", function(){
-            var header = document.querySelector("header");
-            header.classlist.toggle("sticky", window.scrollY > 0);
-        })
+            window.addEventListener("scroll", function(){
+                var header = document.querySelector("header");
+                header.classlist.toggle("sticky", window.scrollY > 0);
+            })
+        </script>
+
+    <!--<script type="text/javascript">
+        function clicked() {
+            if (confirm('Do you want to submit?')) {
+                yourformelement.submit();
+            } else {
+                return false;
+            }
+        }
+    </script>-->
+    <script type='text/javascript'>
+        function foo() {
+            var user_choice = window.confirm('Would you like to continue?');
+            if (user_choice == true) {
+                window.location = 'thankyou.html';
+            } else {
+                return false;
+            }
+        }
     </script>
+
+    <!------------------------------------>
+    <!----------VIDEO SCRIPT-------------->
+    <!------------------------------------->
+    <!------------ICON SCRIPT-------------->
+
+<script src="miracle.js"></script>
 </body>
 
 </html>

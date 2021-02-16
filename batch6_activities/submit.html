@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Miracle Landing Page</title>
+    <!-----------STYLESHEET---------->
+    <link rel="stylesheet" href="product.css">
+    <!--------------FONT------------->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <br>
+    <p id="up"></p>
+    <!----------HEADER SECTION----------->
+    <header>
+        <a href="#" class="logo"><img src="images/44.jpeg"></a>
+        <ul>
+            <li><a href="miracle.html">Home</a></li>
+            <li><a href="#gotoabout">About</a></li>
+            <li class="active"><a href="product.html">Products</a></li>
+            <li><a href="#">Shop</a></li>
+            <li><a href="#gotoourteam">Team</a></li>
+            <li><a href="#contdp">Contact Us</a></li>
+        </ul>
+    </header>
+    <!--------VIDEO BACKGROUND----------->
+    <video playsinline autoplay muted loop poster="" class="bgvid">
+        <source src="images/vidbg.mp4" type="video/mp4">
+    </video>
+    <!------------FIRST SECTION CAROUSEL--------------->
+    <!-------------SECOND SECTION PRODUCTS---------------->
+    <div class="container">
+        <ul>
+            <div class="box">
+                <a href=""></a>
+                <br>
+                <div class="details"><img src="images/products/mplogo.jpeg" class="logo" width="200px"
+                        style="height: auto;">
+                </div>
+                <p class="product-title"></p><img src="images/products/pthousehold.jpeg" class="title" width="330px"
+                    height="350px">
+                <p class="regular"></p><img src="images/products/gwc.jpeg" class="model">
+            </div>
+        </ul>
+        <ul>
+            <div class="box">
+                <a href=""></a>
+                <br>
+                <div class="details"><img src="images/products/mplogo.jpeg" class="logo" width="200px"
+                        style="height: auto;">
+                </div>
+                <p class="product-title"></p><img src="images/products/ptpro.jpeg" class="title" width="350px"
+                    height="350px">
+                <p class="regular"></p><img src="images/products/prodsx.jpeg" class="model">
+            </div>
+        </ul>
+        <ul>
+            <div class="box">
+                <a href="#hello"></a>
+                <br>
+                <div class="details"><img src="images/products/mplogo.jpeg" class="logo" width="200px"
+                        style="height: auto;">
+                </div>
+                <p class="product-title"></p><img src="images/products/ptts.jpeg" class="title" width="300px"
+                    height="300px">
+                <p class="regular"></p><img src="images/products/travelproducts.jpeg" class="model">
+            </div>
+        </ul>
+    </div>
+    <br>
+    <!-------------THIRD SECTION PRODUCTS---------------->
+    <div class="container2">
+        <div class="slider2">
+            <div class="slides2">
+                <input type="radio" name="radio-btn" id="radio1">
+                <input type="radio" name="radio-btn" id="radio2">
+                <input type="radio" name="radio-btn" id="radio3">
+                <input type="radio" name="radio-btn" id="radio4">
+                <input type="radio" name="radio-btn" id="radio5">
+                <input type="radio" name="radio-btn" id="radio6">
+                <!--sliderimages-->
+                <div class="slide2 first">
+                    <img src="images/mp1.jpeg" alt="">
+                </div>
+                <div class="slide2 second">
+                    <img src="images/mp2.jpeg" alt="">
+                </div>
+                <div class="slide2 third">
+                    <img src="images/mp3.jpeg" alt="">
+                </div>
+                <div class="slide2 fourth">
+                    <img src="images/mp4.jpeg" alt="">
+                </div>
+                <div class="slide2 fifth">
+                    <img src="images/mp4.jpeg" alt="">
+                </div>
+                <div class="slide2 sixth">
+                    <img src="images/mp4.jpeg" alt="">
+                </div>
+                <!--manual navigation-->
+                <div class="navigation-manual">
+                    <label for="radio1" class="manual-btn"></label>
+                    <label for="radio2" class="manual-btn"></label>
+                    <label for="radio3" class="manual-btn"></label>
+                    <label for="radio4" class="manual-btn"></label>
+                    <label for="radio5" class="manual-btn"></label>
+                    <label for="radio6" class="manual-btn"></label>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <!-------------SCRIPT---------------->
+    <!---------CAROUSEL SCRIPT----------->
+    <script type="text/javscript">
+            var counter = 1;
+            setInterval(function(){
+                document.getElementById('radio' + counter).checked = true;
+                counter++;
+                if(counter > 6){
+                    counter = 1;
+                }
+            }, 5000);
+        </script>
+    <!----------BANNER SCRIPT------------>
+    <section class="banner"></section>
+    <script type="text/javscript">
+            window.addEventListener("scroll", function(){
+                var header = document.querySelector("header");
+                header.classlist.toggle("sticky", window.scrollY > 0);
+            })
+        </script>
+
+    <!------------------------------------>
+    <!----------VIDEO SCRIPT-------------->
+    <!------------------------------------->
+    <!------------ICON SCRIPT-------------->
+
+    <script src="miracle.js"></script>
+</body>
+
+</html>
