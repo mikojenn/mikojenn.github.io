@@ -14,11 +14,11 @@ window.addEventListener("scroll", function(){
     header.classlist.toggle("sticky", window.scrollY > 0);
 })
 
-/*-----submit button---*/
+/*-----submit button---
 function clicked() {
             if (confirm('Do you want to submit?')) {
                 yourformelement.submit();
             } else {
                 return false;
             }
-        }
+        }*/
