@@ -162,11 +162,14 @@ body{
 .prev {
   width: 40x;
   height: 70px;
+  padding-left: 7px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-right: 7px;
   background-color: rgba(14, 184, 235, 0.178);
   border-radius: 10px;
   box-shadow: 2px 10px 12px white;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: space-between;
   box-sizing: border-box;
@@ -175,15 +178,25 @@ body{
 .next {
   width: 50x;
   height: 70px;
+  padding-left: 7px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-right: 7px;
   background-color: rgba(14, 184, 235, 0.178);
   border-radius: 10px;
   box-shadow: 2px 10px 12px white;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: space-between;
   box-sizing: border-box;
   color: white;
+}
+/*---------SCOREBOARD------*/
+.player-one-score {
+    color:white;
+}
+.player-two-score {
+    color:white
 }
 /*----------VIDEO---------*/
 video {
