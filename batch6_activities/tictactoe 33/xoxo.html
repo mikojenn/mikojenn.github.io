@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Miko's TictacToe</title>
+    <!-----------STYLESHEET------------>
+    <link rel="stylesheet" href="./xoxo.css">
+    <!--------------SCRIPT---------------->
+    <script src="./final.js" defer></script>
+    <!-----------FONT------------>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <h1 id="header">
+        <p>Twinkle Twinkle<br> Tic Tac Toe</p>
+    </h1>
+    <!-----------BUTTONS------------>
+
+    <!-----------BOARD------------>
+    <div class="game-container">
+        <div>
+
+            <div class="prev" onclick="movePrev()">
+                <h1>Previous</h1>
+            </div>
+            <div>Player 1: <span id="player-one-score"></span></div>
+        </div>
+        <div class="board" id="board">
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+        </div>
+        <div>
+
+            <div class="next" onclick="moveNext()">
+                <h1>Next</h1>
+            </div>
+            <div>Player 2: <span id="player-two-score"></span></div>
+        </div>
+    </div>
+    <div class="winning-message" id="winningMessage">
+        <div data-winning-message-text></div>
+        <button id="restartButton">Restart</button>
+    </div>
+
+
+    <!--------VIDEO BACKGROUND------------>
+    <video playsinline autoplay muted loop poster="" class="bgvid">
+        <source src="./images/pop.mp4" type="video/mp4">
+    </video>
+
+</body>
+
+</html>

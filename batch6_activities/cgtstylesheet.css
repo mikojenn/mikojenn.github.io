@@ -1,0 +1,68 @@
+body {
+  background-image: url(/Users/miko/Desktop/mikojenn.github.io/batch6_activities/Tributepage/image/v.jpeg);
+  background-repeat: round;
+  font-family: "Comfortaa", cursive;
+  outline: 50 50 50 50;
+  color: white;
+}
+#headername {
+  color: rgba(236, 231, 231, 0.911);
+}
+#headerpic {
+  text-align: center;
+}
+#mv1 {
+  font-family: "Satisfy", cursive;
+  color: rgba(255, 255, 255, 0.897);
+}
+
+/*-------NAV-------*/
+ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.top-container {
+  background-color: #050000be;
+  padding: 10px;
+  text-align: center;
+  font-family: "Satisfy", cursive;
+}
+.header {
+  padding: 10px 16px;
+  background: rgba(74, 31, 114, 0.616);
+  color: #f1f1f1;
+  font-family: "Satisfy", cursive;
+  text-align: center;
+}
+
+.content {
+  padding: 16px;
+  margin: auto;
+  padding: 100px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 102px;
+}
+
+/*-------END NAV-------*/
+
+#iconpic1 {
+  border-radius: 50%;
+}
+#icon1 {
+  color: rgba(255, 255, 255, 0);
+}
+#iconpic2 {
+  border-radius: 50%;
+}
+#iconpic3 {
+  border-radius: 50%;
+}
