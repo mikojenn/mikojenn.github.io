@@ -29,7 +29,7 @@ let moveshistory = [];
 //     ["", "", ""],
 //     ["", "", ""]
 // ];
-const cellElements = document.querySelectorAll('[data-cell]')
+const cellElements = document.querySelectorAll('.cell')
 const player1 = document.querySelector('#player-one-score');
 const player2 = document.querySelector('#player-two-score');
 const board = document.getElementById('board')
